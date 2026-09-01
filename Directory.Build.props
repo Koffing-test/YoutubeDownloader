@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <Version>999.9.9-dev</Version>
-    <Company>Tyrrrz</Company>
+    <Company>Koffing-test</Company>
     <Copyright>Copyright (C) Oleksii Holub</Copyright>
     <Nullable>enable</Nullable>
     <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>

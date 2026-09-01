@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <MacOSBundleIdentifier>me.tyrrrz.youtubedownloader</MacOSBundleIdentifier>
+    <MacOSBundleIdentifier>io.github.koffingtest.youtubedownloader</MacOSBundleIdentifier>
     <MacOSBundleName>YTD</MacOSBundleName>
     <MacOSBundleDisplayName>YoutubeDownloader</MacOSBundleDisplayName>
   </PropertyGroup>
