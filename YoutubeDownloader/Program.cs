@@ -18,8 +18,7 @@ public static class Program
 
     public static bool IsDevelopmentBuild { get; } = Version.Major is <= 0 or >= 999;
 
-    public static string ProjectUrl { get; } =
-        "https://github.com/Koffing-test/YoutubeDownloader";
+    public static string ProjectUrl { get; } = "https://github.com/Koffing-test/YoutubeDownloader";
 
     public static string ProjectReleasesUrl { get; } = $"{ProjectUrl}/releases";
 
