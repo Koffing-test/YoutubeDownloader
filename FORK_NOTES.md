@@ -43,10 +43,6 @@ rg -n "Tyrrrz.*YoutubeDownloader" YoutubeDownloader/Services/UpdateService.cs
 
 ## Резервная копия
 
-Исходные версии измененных файлов сохранены вне Git-репозитория:
-
-`/Users/koffing/Documents/cloud/YoutubeDownloader-backups/20260901-183242-before-neutral-fork.tar.gz`
-
 Копия `Program.cs` перед исправлением форматирования:
 
 `/Users/koffing/Documents/cloud/YoutubeDownloader-backups/20260901-1845-format-fix/Program.cs`
