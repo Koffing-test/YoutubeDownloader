@@ -25,8 +25,10 @@ MIT-лицензия и исходный copyright сохраняются сог
 - Company metadata и macOS bundle identifier переведены на форк.
 - Поиск по исходникам не находит удаленные тексты или идентификаторы диалога.
 - `git diff --check` проходит.
-- Локальная сборка не запускалась: на Mac отсутствует .NET SDK. Окончательная
-  проверка выполняется GitHub Actions после push.
+- Локальная сборка не запускалась: на Mac отсутствует .NET SDK.
+- GitHub Actions успешно проверил форматирование и собрал приложение для
+  Windows (`x86`, `x64`, `arm64`), Linux (`x64`, `arm64`) и macOS (`x64`,
+  `arm64`): `https://github.com/Koffing-test/YoutubeDownloader/actions/runs/33527128420`.
 
 ## Обновление из upstream
 
@@ -44,3 +46,7 @@ rg -n "Tyrrrz.*YoutubeDownloader" YoutubeDownloader/Services/UpdateService.cs
 Исходные версии измененных файлов сохранены вне Git-репозитория:
 
 `/Users/koffing/Documents/cloud/YoutubeDownloader-backups/20260901-183242-before-neutral-fork.tar.gz`
+
+Копия `Program.cs` перед исправлением форматирования:
+
+`/Users/koffing/Documents/cloud/YoutubeDownloader-backups/20260901-1845-format-fix/Program.cs`
